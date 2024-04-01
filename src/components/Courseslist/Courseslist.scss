@@ -1,0 +1,10 @@
+.courseslist__wrap {
+    display: grid;
+    width: 100%;
+    // grid-template-columns: repeat(3, 13.177vw);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.9375vw;
+    grid-template-rows: 21.99vh;
+    grid-auto-rows: 21.99vh;
+    row-gap: 1.885vh;
+}

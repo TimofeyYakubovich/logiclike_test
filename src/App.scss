@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.App {
+    padding: 2.513vh 1.25vw 2.513vh 1.25vw;
+    display: flex;
+    gap: 1.25vw;
+}
+
+@media (max-width: 992px) {
+    .App {
+        display: block;
+    }
+
+    .topicsList__wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .topicsList__btn {
+        width: fit-content;
+    }
+}
