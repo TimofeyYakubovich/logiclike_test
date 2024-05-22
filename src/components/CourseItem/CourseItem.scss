@@ -7,7 +7,7 @@
 
 .courseItem__img {
     width: 100%;
-    height: 16.963vh;
+    height: 20.3vh;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
 
@@ -20,21 +20,25 @@
 }
 
 .courseItem__name {
-    padding: 1.257vh 0.9375vw 1.885vh 0.9375vw;
+    padding: 0.9vh 0.9375vw 1.885vh 1.2vw;
 }
 
 .courseItem__name span {
-    font-size: 1.885vh;
+    font-size: 2.24vh;
 }
 
-@media (max-width: 540px) {
-    .courseItem__name span {
-        font-size: 1.466vh;
+@media (max-width: 1550px) {
+    .courseItem__name {
+        padding: 0.94vh 0.9375vw 1.885vh 1.7vw;
     }
 }
 
-@media (max-width: 392px) {
+@media (max-width: 1130px) {
+    .courseItem__name {
+        padding: 0.9vh 0.9375vw 1.885vh 1.9vw;
+    }
     .courseItem__name span {
-        font-size: 1.047vh;
+        font-size: 2.24vh;
+        line-height: 1.2;
     }
 }

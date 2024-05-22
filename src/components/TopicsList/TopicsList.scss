@@ -1,19 +1,21 @@
 .topicsList__wrapper {
-    width: 13.75vw;
+    width: 20.6vw;
     height: fit-content;
     border: 1px solid #CFCFE4;
     border-radius: 18px;
-    padding: 1.257vh 0.625vw;
+    padding: 1.257vh 0.7vw;
 }
 
 .topicsList__btn {
     width: 100%;
-    height: 4.398vh;
+    height: 5.2vh;
     border-radius: 12px;
     background-color: white;
     border-style: none;
     cursor: pointer;
-    font-size: 1.885vh;
+    font-size: 2.2vh;
+    text-align: left;
+    padding-left: 0.8vw;
 }
 
 .topicsList__btn.active {
@@ -22,17 +24,20 @@
     transition: all 200ms ease-in;
 }
 
-@media (max-width: 992px) {
-
+@media (max-width: 1550px) {
     .topicsList__wrapper {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+        width: 30.9vw;
+        padding: 1.257vh 0.95vw;
     }
+
     .topicsList__btn {
-        padding: 0 5px;
-        width: fit-content;
+        padding-left: 1.2vw;
+    }
+}
+
+@media (max-width: 1130px) {
+    .topicsList__wrapper {
+        width: 42vw;
     }
 }
 

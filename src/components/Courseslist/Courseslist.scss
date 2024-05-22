@@ -3,8 +3,16 @@
     width: 100%;
     // grid-template-columns: repeat(3, 13.177vw);
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 0.9375vw;
-    grid-template-rows: 21.99vh;
-    grid-auto-rows: 21.99vh;
+    column-gap: 1.2vw;
+    grid-template-rows: 26.5vh;
+    grid-auto-rows: 26.5vh;
     row-gap: 1.885vh;
+}
+
+@media (max-width: 1130px) {
+    .courseslist__wrap {
+        column-gap: 1.8vw;
+        grid-template-rows: 28.8vh;
+        grid-auto-rows: 28.8vh;
+    }
 }
